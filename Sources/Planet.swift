@@ -9,7 +9,7 @@
 import Foundation
 import Cocoa
 
-class Planet {
+class Planet: NSObject {
   
   init(name: String, diameter: Int, dayLength: Float, millionKMsFromSun: Float) {
     
@@ -51,8 +51,8 @@ extension Planet {
   }
 }
 
-extension Planet: CustomStringConvertible {
-  var description: String {
+extension Planet {
+  override var description: String {
     return "\(name) - Diameter: \(diameter) Day Length: \(dayLength) Distance: \(millionKMsFromSun) million km"
   }
 }
