@@ -13,6 +13,7 @@
 		9D88A6B81E00697C008E7BCA /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6B61E00697C008E7BCA /* Planet.swift */; };
 		9D88A6B91E00697C008E7BCA /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6B71E00697C008E7BCA /* PlanetController.swift */; };
 		9D88A6BC1E006DCB008E7BCA /* planets.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D88A6BB1E006DCB008E7BCA /* planets.json */; };
+		9D88A6C01E00954C008E7BCA /* PlanetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6BF1E00954C008E7BCA /* PlanetsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9D88A6B61E00697C008E7BCA /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		9D88A6B71E00697C008E7BCA /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 		9D88A6BB1E006DCB008E7BCA /* planets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planets.json; sourceTree = "<group>"; };
+		9D88A6BF1E00954C008E7BCA /* PlanetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				9D88A6AF1E006918008E7BCA /* AppDelegate.swift */,
 				9D88A6B61E00697C008E7BCA /* Planet.swift */,
 				9D88A6B71E00697C008E7BCA /* PlanetController.swift */,
+				9D88A6BF1E00954C008E7BCA /* PlanetsTableViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				9D88A6B81E00697C008E7BCA /* Planet.swift in Sources */,
 				9D88A6B91E00697C008E7BCA /* PlanetController.swift in Sources */,
+				9D88A6C01E00954C008E7BCA /* PlanetsTableViewController.swift in Sources */,
 				9D88A6B41E006918008E7BCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
