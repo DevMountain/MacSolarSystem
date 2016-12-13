@@ -1,0 +1,56 @@
+ [
+  {
+  "name" : "Mercury",
+  "dayLength" : 4222.6,
+  "diameter" : 4879,
+  "millionKMsFromSun" : 57.9
+  },
+  {
+  "name" : "Venus",
+  "dayLength" : 2802,
+  "diameter" : 12104,
+  "millionKMsFromSun" : 108.2
+  },
+  {
+  "name" : "Earth",
+  "dayLength" : 24,
+  "diameter" : 12756,
+  "millionKMsFromSun" : 149.6
+  },
+  {
+  "name" : "Mars",
+  "dayLength" : 24.7,
+  "diameter" : 6792,
+  "millionKMsFromSun" : 227.9
+  },
+  {
+  "name" : "Jupiter",
+  "dayLength" : 9.9,
+  "diameter" : 142984,
+  "millionKMsFromSun" : 778.6
+  },
+  {
+  "name" : "Saturn",
+  "dayLength" : 10.7,
+  "diameter" : 120536,
+  "millionKMsFromSun" : 1433.5
+  },
+  {
+  "name" : "Uranus",
+  "dayLength" : 17.2,
+  "diameter" : 51118,
+  "millionKMsFromSun" : 2872.5
+  },
+  {
+  "name" : "Neptune",
+  "dayLength" : 16.1,
+  "diameter" : 49528,
+  "millionKMsFromSun" : 4495.1
+  },
+  {
+  "name" : "Pluto",
+  "dayLength" : 153.3,
+  "diameter" : 2370,
+  "millionKMsFromSun" : 5906.4
+  }
+]

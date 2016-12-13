@@ -10,7 +10,9 @@
 		9D88A6B11E006918008E7BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D88A6AA1E006918008E7BCA /* Assets.xcassets */; };
 		9D88A6B21E006918008E7BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D88A6AB1E006918008E7BCA /* Main.storyboard */; };
 		9D88A6B41E006918008E7BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6AF1E006918008E7BCA /* AppDelegate.swift */; };
-		9D88A6B51E006918008E7BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6B01E006918008E7BCA /* ViewController.swift */; };
+		9D88A6B81E00697C008E7BCA /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6B61E00697C008E7BCA /* Planet.swift */; };
+		9D88A6B91E00697C008E7BCA /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88A6B71E00697C008E7BCA /* PlanetController.swift */; };
+		9D88A6BC1E006DCB008E7BCA /* planets.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D88A6BB1E006DCB008E7BCA /* planets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +21,9 @@
 		9D88A6AC1E006918008E7BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D88A6AD1E006918008E7BCA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D88A6AF1E006918008E7BCA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D88A6B01E006918008E7BCA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D88A6B61E00697C008E7BCA /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		9D88A6B71E00697C008E7BCA /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		9D88A6BB1E006DCB008E7BCA /* planets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,10 @@
 		9D88A6A91E006918008E7BCA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9D88A6BA1E006AA1008E7BCA /* Storyboards */,
 				9D88A6AA1E006918008E7BCA /* Assets.xcassets */,
-				9D88A6AB1E006918008E7BCA /* Main.storyboard */,
 				9D88A6AD1E006918008E7BCA /* Info.plist */,
+				9D88A6BB1E006DCB008E7BCA /* planets.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -64,9 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				9D88A6AF1E006918008E7BCA /* AppDelegate.swift */,
-				9D88A6B01E006918008E7BCA /* ViewController.swift */,
+				9D88A6B61E00697C008E7BCA /* Planet.swift */,
+				9D88A6B71E00697C008E7BCA /* PlanetController.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		9D88A6BA1E006AA1008E7BCA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9D88A6AB1E006918008E7BCA /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,7 @@
 			files = (
 				9D88A6B11E006918008E7BCA /* Assets.xcassets in Resources */,
 				9D88A6B21E006918008E7BCA /* Main.storyboard in Resources */,
+				9D88A6BC1E006DCB008E7BCA /* planets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D88A6B51E006918008E7BCA /* ViewController.swift in Sources */,
+				9D88A6B81E00697C008E7BCA /* Planet.swift in Sources */,
+				9D88A6B91E00697C008E7BCA /* PlanetController.swift in Sources */,
 				9D88A6B41E006918008E7BCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
