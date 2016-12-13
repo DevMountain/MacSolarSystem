@@ -10,7 +10,7 @@ import Foundation
 
 class PlanetController {
   
-  static let sharedController = PlanetController()
+  static let shared = PlanetController()
   
   private func loadPlanets() throws -> [Planet] {
     guard let planetFileURL = Bundle.main.url(forResource: "planets", withExtension: "json") else {
